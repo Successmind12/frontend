@@ -1,0 +1,49 @@
+/* p.redgang{
+    color: orange;
+}
+p.smooth{
+    color: peru;
+}
+p.redgang.cool{
+    border: 1px dashed purple;
+}
+#content{
+    background-color: purple;
+    padding: 20px;
+
+} */
+/* div .smooth {
+    color: rgb(118, 218, 225);
+} */
+
+/*How to edit an attribute*/
+/* a[href*="netninja.co.uk"] {
+    background-color: greenyellow;
+    color: brown;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:bold;
+}
+a[href$=".com"] {
+    background-color: rgb(112, 22, 12);
+    color: goldenrod;
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-size: x-large;
+    border: 5px;
+} */
+
+div {
+    color: lightcoral;
+    border: 1px solid gray ;
+    margin: 40px;
+    font-weight: bold;
+}
+div p {
+    border: inherit;
+    margin: inherit;
+    color: red;
+}
+p {
+    color: orange;
+}

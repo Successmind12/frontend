@@ -1,0 +1,27 @@
+h1 {
+    color: blueviolet;
+    background-color: #8b1349;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+p {
+    color: palevioletred;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 0px;
+    column-count: 3;
+    column-gap: 60px;
+}
+ul {
+    border : width 5px;
+    border-style: dotted;
+    border-color: salmon ;
+    border-bottom: 4px dashed  color(srgb red green rgb(214, 181, 50));
+    border-left: 5px;
+}
+li {
+    list-style-type: decimal;
+    text-shadow: 1px 1px #8b1349;
+}

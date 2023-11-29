@@ -1,0 +1,80 @@
+/*Editing specific paragraphs in the div using classes
+p.p1 {
+    color: cornflowerblue;
+    font-size: 20px;
+}
+p.p2 {
+    color: purple;
+}
+p.p3 {
+    color: coral;
+}*/
+
+/* Giving a selector multiple names 
+p.p3.p4 {
+    color: slategray;
+    font:120px;
+    font-family:bold;
+}*/
+/* Giving a div tag an identity */
+/* #content {
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}*/
+/* Editing specific tags in a parent tag */
+/*div .p2 {
+    color: brown;
+}*/
+/* Editing an anchor tag*/
+/*a[href] {
+    background-color: crimson;
+} */
+
+/* Editing specific anchor tags / attributes */
+/*a[href= "https://www.netninja.co.uk"] {
+    background-color: cornflowerblue;
+    color: rgb(3, 3, 35);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}*/
+/* Shorter ways of editing  attributes */
+/* If it contains netninja use * */
+/* a[href*="netninja"] { 
+    background-color: cornflowerblue;
+    color: rgb(92, 24, 72);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}*/
+/*a[href*="google"] {
+    color: orange;
+    background-color: aqua;
+    border: 2px darkred dashed;
+}*/
+/* If it ends in .com or whatever use $ */
+/* a[href$=".com"] { 
+
+    color: darkmagenta;
+    background-color: lightgreen;
+    border: 2px lightskyblue dashed;
+}*/
+/* Inheritance property */
+div {
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+
+}
+/* To inherit property that is not inherited directly */
+p {
+    border: inherit;
+    margin: inherit;
+}
+p.p1 {
+    border: 0px ;
+    margin: 0px;
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>HTML FORMS</Title>
+    </head>
+
+    <body>
+        <h1>HTML FORMS</h1>
+        <form>
+            <!--Creating web foms-->
+                <label for="username">Enter username:</label>
+                <input type="text" id = username name="username" placeholder="username" required >
+                <br><br>
+                <label for="email">Enter email:</label>
+                <input type="email" id="email" name="email" placeholder="email" required >
+                <br><br>
+                <label for="password">Enter password:</label>
+                <input type="password" id="password" name="password" placeholder="password" required >
+                <br>
+
+            <!--Creating select buttons using radio tags-->
+                <p>Select your age:</p>
+                <input type="radio" id="option-1" name="age" value="0-25">
+                <label for="option-1">0-25</label>
+                <input type="radio" id="option-2" name="age" value="26-50">
+                <label for="option-2">26-50</label>
+                <input type="radio" id="option-3" name="age" value="50+">
+                <label for="option-3">50+</label>
+                <br><br>
+
+            <!--Creating dropdowns buttons-->
+            <label for="questions">Select questions:</label>
+            <select name="questions" id="questions">
+                <option value="q1">What is favourite surah:</option>
+                <option value="q2">Who is your favourite Prophet:</option>
+                <option value="q3">If you were to be a Sohabah, who will you be?</option>
+            </select>
+            <br>
+            <label for="answers">answers</label>
+            <input type="text" id= "answers">
+            <br><br>
+            
+            <!--Creating textarea-->
+            <label for="Bio">Your bio:</label> <br>
+            <textarea name="Bio" id="Bio" cols="30" rows="10"  placeholder="about you..."></textarea>
+            
+            <br><br>
+            <!--Creating submit button-->
+            <input type="submit" value="submit the form">
+        
+        </form>
+    </body>
+</html>
